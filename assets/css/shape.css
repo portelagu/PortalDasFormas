@@ -1,0 +1,94 @@
+.shape__container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.shape__img {
+    width: 30%;
+}
+
+.shape__title {
+    color: #3F5711;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.shape__text {
+    font-weight: 500;
+    width: 30%;
+}
+
+.shape__math {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin: 20px 70px 0;
+}
+
+.shape__desc {
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+}
+
+.shape__input {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 0 none;
+    outline: 0;
+    background-color: #FFF;
+    padding: 9px;
+    border-radius: 3px;
+    width: 30px;
+}
+
+.shape__submit {
+    border: none;
+    background-color: #3F5711;
+    color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 4px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.result__message {
+    font-size: 24px;
+    color: #3F5711;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.return__menu {
+    font-size: 20px;
+    background-color: #293219;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 30px;
+    border-radius: 20px 0 20px 0;
+    margin-top: 20px;
+}
+
+#cuboid__math, #retangle__math, #trapezoid__math, #rhombohedron__math, #polygon__math {
+    display: flex;
+    flex-direction: column;
+}
+
+#shape__select {
+    border: none;
+    width: 150px;
+    padding: 10px 10px 10px 3px;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #3F5711;
+}

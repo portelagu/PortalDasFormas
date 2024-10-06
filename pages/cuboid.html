@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/shapes.css">
+    <link rel="stylesheet" href="../assets/css/shape.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Portal das Formas - Cubóide</title>
+</head>
+
+<body>
+
+    <header class="nav__header">
+        <div class="logo">
+            <div class="shape__logo"></div>
+            <p class="text__logo">Portal das Formas</p>
+        </div>
+        <ul class="list">
+            <li class="list__item"><a href="../index.html" class="list__item-link">Início</a></li>
+            <li class="list__item"><a href="./shapes.html" class="list__item-link">Formas</a></li>
+        </ul>
+        <div class="account__access">
+            <a href="#" class="login__acess">Entrar</a>
+            <a href="#" class="signup__acess">Cadastrar-se</a>
+        </div>
+    </header>
+
+    <section class="shape__container">
+        <p class="shape__title">Cubóide</p>
+        <img src="../assets/images/Cuboid.png" alt="Imagem de um cubóide" class="shape__img">
+        <p class="shape__text">
+            O cubóide é uma forma tridimensional composta por seis faces retangulares, onde as arestas opostas são de igual comprimento. Ele se assemelha a uma caixa ou paralelepípedo, sendo encontrado em diversas estruturas cotidianas, como prédios, contêineres e móveis.</p>
+        <form class="shape__math" id="cuboid__math">
+            <div>
+            <label for="valorLado" class="shape__desc">Digite o valor do comprimento:</label>
+            <input type="text" class="shape__input" id="cuboid-length__input">
+        </div>
+
+        <div>
+            <label for="valorLado" class="shape__desc">Digite o valor da profundidade:</label>
+            <input type="text" class="shape__input" id="cuboid-depth__input">
+        </div>
+
+        <div>
+            <label for="valorLado" class="shape__desc">Digite o valor da altura:</label>
+            <input type="text" class="shape__input" id="cuboid-height__input">
+        </div>
+
+        
+            <input type="submit" value="Calcular" class="shape__submit">
+        </form>
+        <p class="result__message" id="cuboid__result"></p>
+        <a href="./shapes.html" class="return__menu">Voltar ao Menu</a>
+    </section>
+
+
+    <footer class="footer">
+        <p class="footer__text">© 2024 Made by Gustavo Portela.</p>
+    </footer>
+</body>
+
+<script src="../assets/js/cuboid.js"></script>
+
+</html>
